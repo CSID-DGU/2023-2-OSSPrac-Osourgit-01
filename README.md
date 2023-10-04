@@ -2,7 +2,6 @@
 OSS Practice Team Activities
 
 ## Team 오솔git
-----------------
 - 김태희
 - 박서현
 - 이소은
