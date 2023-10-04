@@ -6,5 +6,3 @@ OSS Practice Team Activities
 - 박서현
 - 이소은
 - 최민
-
-- slack test
