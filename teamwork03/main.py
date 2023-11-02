@@ -16,7 +16,7 @@ def result():
         # Gender Selection
 
         # Major
-
+        result['Major']=request.form.get('Major')
         # Programming Languages
 
 
