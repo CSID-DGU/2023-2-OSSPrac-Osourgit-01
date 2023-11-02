@@ -14,11 +14,12 @@ def result():
         result['Student Number']=request.form.get('StudentNumber')
 
         # Gender Selection
+        result['Gender']=request.form.get('gender')
 
         # Major
         result['Major']=request.form.get('Major')
+      
         # Programming Languages
-
 
         return render_template('result.html',result=result)
 
