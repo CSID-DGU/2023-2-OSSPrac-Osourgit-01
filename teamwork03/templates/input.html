@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-    <h1>HTML input & output practice</h1>
+    <h1> HTML input & output practice</h1>
     <form action="/result" method="POST">
+
         <p><b>1. Name</b> <input type='text' id='name' name='name' /></p>
         <p><b>2. Student Number</b> <input type='text' id='StudentNumber' name='StudentNumber' /></p>
         
         <!-- Gender Selection -->
+        <p><b>3. Gender</b> 
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female" required>
+        </p>
+ 
        
         <!-- Major -->
-       
+        <p><b>4. Major</b> <input type='text' id='major' name='major' /></p>
+  
+  
         <!-- Programming Languages -->
 
           
@@ -25,6 +35,7 @@
           
        
         <button type='submit' name='submit' value='submit'>Submit</button>
+
     </form>
 </body>
 </html>

@@ -8,12 +8,23 @@ def input():
 
 @app.route('/result', methods=['POST', 'GET'])
 def result():
-    if request.method == 'POST':
-        result = dict()
-        result['Name'] = request.form.get('name')
-        result['Student_Number'] = request.form.get('StudentNumber')
-        result['Programming_Languages'] = request.form.getlist('programming_languages')
-        return render_template('result.html', result=result)
+    if request.method =='POST':
+        result=dict()
+        result['Name']=request.form.get('name')
+        result['Student Number']=request.form.get('StudentNumber')
 
-if __name__ == '__main__':
+        # Gender Selection
+        result['Gender']=request.form.get('gender')
+
+        # Major
+        result['Major']=request.form.get('Major')
+      
+        # Programming Languages
+        result['Programming_Languages'] = request.form.getlist('programming_languages')
+
+        return render_template('result.html',result=result)
+
+
+if __name__ =='__main__':
+
     app.run(debug=True)
