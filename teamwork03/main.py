@@ -1,12 +1,12 @@
-from flask import Flask,render_template,request
+from flask import Flask, render_template, request
 
-app=Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def input():
     return render_template('input.html')
 
-@app.route('/result',methods=['POST','GET'])
+@app.route('/result', methods=['POST', 'GET'])
 def result():
     if request.method =='POST':
         result=dict()
@@ -20,9 +20,11 @@ def result():
         result['Major']=request.form.get('Major')
       
         # Programming Languages
+        result['Programming_Languages'] = request.form.getlist('programming_languages')
 
         return render_template('result.html',result=result)
 
 
 if __name__ =='__main__':
+
     app.run(debug=True)

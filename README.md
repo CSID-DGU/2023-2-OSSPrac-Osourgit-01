@@ -5,4 +5,4 @@ OSS Practice Team Activities
 - 김태희
 - 박서현
 - 이소은
-- 최민 (Minn-Choi)
+- 최민(Min)
