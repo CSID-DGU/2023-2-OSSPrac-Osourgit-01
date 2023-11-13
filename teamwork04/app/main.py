@@ -12,6 +12,7 @@ def result():
         result = dict()
         result['Name'] = request.form.get('name')
         result['Student Number'] = request.form.get('StudentNumber')
+        result['University'] = request.form.get('University')
         result['Gender'] = request.form.get('gender')
         result['Major'] = request.form.get('major')
         email_id = request.form.get('email_id')
