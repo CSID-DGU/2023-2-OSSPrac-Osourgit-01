@@ -3,6 +3,6 @@ version : "3.0"
 services:
   web:
     build:  .
-    image: kimtaering/01-osourgit:3.0
+    image: kimtaering/osourgit01:3.0
     ports:
       - "5050:5050"
