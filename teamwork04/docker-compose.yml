@@ -1,6 +1,0 @@
-version : "4.0"
-
-services:
-  web:
-    build:  .
-    image: kimtaering/01-osourgit:4.0
