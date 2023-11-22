@@ -1,8 +1,9 @@
-version : "3.0"
 
+version: "3.0"
+  
 services:
   web:
-    build:  .
-    image: kimtaering/osourgit01:3.0
+    build: .
+    image:  kimtaering/osourgit-teamhw6
     ports:
       - "5050:5050"
