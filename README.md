@@ -6,3 +6,6 @@ OSS Practice Team Activities
 - 박서현
 - 이소은
 - 최민(Min)
+
+<img alt="Static Badge" src="https://img.shields.io/badge/:badgeContent">
+
