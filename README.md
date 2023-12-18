@@ -7,5 +7,5 @@ OSS Practice Team Activities
 - 이소은
 - 최민(Min)
 
-<img alt="Static Badge" src="https://img.shields.io/badge/:badgeContent">
+<img src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=javascript&logoColor=white"/>
 
